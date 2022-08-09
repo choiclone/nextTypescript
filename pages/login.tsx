@@ -51,7 +51,7 @@ function Login() {
                 <h1 className="text-4xl font-semibold">Sign In</h1>
                 <div className="space-y-4">
                     <label className="inline-block w-full">
-                        <input type="email" placeholder="Email" className="input" {...register("email", { required: true })} />
+                        <input type="email" placeholder="이메일 입력 바람 ㅇㅋ?" className="input" {...register("email", { required: true })} />
                         {errors.email && (
                             <p className="p-1 text-[13px] font-light text-orange-500">
                                 이메일을 입력해주세요.
@@ -59,7 +59,7 @@ function Login() {
                         )}
                     </label>
                     <label className="inline-block w-full">
-                        <input type="password" placeholder="Password" className="input" {...register("password", { required: true })} />
+                        <input type="password" placeholder="비밀번호 입력 바람 ㅇㅋ?" className="input" {...register("password", { required: true, maxLength: 60 })} />
                         {errors.password && (
                             <p className="p-1 text-[13px] font-light text-orange-500">
                                 비밀번호는 4자 이상부터 60자 이내로 입력해주세요.
@@ -71,7 +71,7 @@ function Login() {
                 <button className="w-full rounded bg-[#e50914] py-3 font-semibold" onClick={() => setLogin(true)}>Sign In</button>
                 <div className="text-[gray]">
                     New to Netflix?{' '}
-                    <button type="submit" className="text-white hover:underline" onClick={() => setLogin(false)}>Sign up now</button>
+                    <button className="text-white hover:underline" onClick={() => setLogin(false)}>Sign up now</button>
                 </div>
             </form>
         </div>

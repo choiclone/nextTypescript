@@ -10,7 +10,7 @@ function account() {
     return (
         <div>
             <Head>
-                <title>Account Setting -Netflix</title>
+                <title>Account Setting - Netflix</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
