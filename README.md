@@ -1,6 +1,7 @@
-# Next.js + TypeScript + Tailwind CSS Example
+# Next.js + TypeScript + Tailwind CSS
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Neflix Clone test
+NextJS와 TypeScript에 대해서 공부 후 공공 데이터 api를 활용해 만들어 볼 생각임.
 
 ## Deploy your own
 
@@ -12,8 +13,13 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+``` develop test
+yarn dev
+```
+
+``` build Start
+yarn build
+yarn start
 ```
 
 ```Study Video Netflix Clone web
